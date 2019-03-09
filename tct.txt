@@ -1,0 +1,6 @@
+    Private Sub EmpleadosBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs) Handles EmpleadosBindingNavigatorSaveItem.Click, EmpleadosBindingNavigatorSaveItem.Click, EmpleadosBindingNavigatorSaveItem.Click, EmpleadosBindingNavigatorSaveItem.Click
+        Me.Validate()
+        Me.EmpleadosBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.DespensaDataSet4)
+
+    End Sub
